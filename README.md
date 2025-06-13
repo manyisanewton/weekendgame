@@ -1,12 +1,45 @@
-# React + Vite
+# 💻 Code Confession 😈
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A fun, interactive terminal-themed React app where developers anonymously confess their dev sins and get roasted with random programming jokes — fetched live from an API!
 
-Currently, two official plugins are available:
+> “Because every commit is a tiny confession.”
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## Expanding the ESLint configuration
+## 🔥 Features
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- 🎭 **Terminal-style confession booth** — retro green glow + shell prompts
+- 🌐 **Live API jokes** — fetches random dev jokes with every refresh
+- 🤖 **Emoji reactions** — because pain is better with laughter
+- 🎤 **Optional sound effects** — for that old-school terminal clicky vibe (configurable)
+- 💬 **User input** — submit your own dev regrets or custom roasts
+
+---
+
+## 🚀 Live Demo
+
+[🔗 View the App](#) – *(Add your deployed URL here)*
+
+---
+
+## 🧠 Tech Stack
+
+- **ReactJS** (Vite or Create React App)
+- **CSS3 / TailwindCSS / Custom Glow Effects**
+- **Joke API** – [`https://v2.jokeapi.dev`](https://v2.jokeapi.dev)
+- **Optional**: HTML5 Audio API
+
+---
+
+## 📦 Installation
+
+```bash
+# Clone the repo
+git clone https://github.com/your-username/code-confession.git
+cd code-confession
+
+# Install dependencies
+npm install
+
+# Run the app
+npm run dev
