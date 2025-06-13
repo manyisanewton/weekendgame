@@ -1,0 +1,159 @@
+body {
+  margin: 0;
+  font-family: 'Courier New', Courier, monospace;
+  background-color: #111;
+  color: #00ff44;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  padding: 1rem;
+  overflow-x: hidden;
+}
+
+.app {
+  text-align: center;
+  max-width: 800px;
+  width: 100%;
+  padding: 2rem;
+  border: 2px solid #00ff00;
+  border-radius: 12px;
+  box-shadow: 0 0 30px #00ff00;
+  background-color: #000;
+}
+
+h1 {
+  font-size: 3rem;
+  color: #00ff44;
+  margin-bottom: 1.5rem;
+  text-shadow: 0 0 5px #00ff44;
+}
+
+button {
+  background-color: #00ff44;
+  color: #000;
+  border: none;
+  padding: 0.8rem 1.5rem;
+  font-size: 1.1rem;
+  border-radius: 8px;
+  margin: 1rem 0;
+  cursor: pointer;
+  font-weight: bold;
+  box-shadow: 0 0 10px #00ff44;
+  transition: transform 0.2s ease-in-out;
+}
+
+button:hover {
+  transform: scale(1.05);
+  box-shadow: 0 0 15px #00ff44;
+}
+
+.console {
+  font-size: 1.1rem;
+  background: #111;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  padding: 1rem;
+  white-space: pre-line;
+  word-wrap: break-word;
+}
+
+.emoji-reactions {
+  margin: 1rem 0;
+}
+
+.emoji {
+  font-size: 1.5rem;
+  margin: 0 0.25rem;
+  cursor: pointer;
+  transition: transform 0.2s ease;
+}
+
+.emoji:hover {
+  transform: scale(1.3);
+}
+
+.terminal {
+  display: flex;
+  align-items: center;
+  background-color: #000;
+  border: 2px solid #00ff00;
+  border-radius: 12px;
+  padding: 0.8rem;
+  margin: 1rem auto;
+  max-width: 90%;
+  box-shadow: 0 0 15px #00ff00;
+}
+
+.prompt {
+  color: #00ff44;
+  font-weight: bold;
+  margin-right: 0.5rem;
+}
+
+.terminal input {
+  background-color: transparent;
+  border: none;
+  color: #ccc;
+  font-size: 1rem;
+  flex: 1;
+  outline: none;
+  padding-left: 0.5rem;
+}
+
+.roast {
+  width: 90%;
+  padding: 0.5rem;
+  margin: 0.5rem auto 1.5rem;
+  background-color: #111;
+  color: #00ff44;
+  border: 1px solid #00ff44;
+  border-radius: 6px;
+  outline: none;
+  font-family: monospace;
+}
+
+.submit {
+  background-color: #00ff44;
+  color: #000;
+  padding: 0.7rem 2rem;
+  border: none;
+  font-weight: bold;
+  border-radius: 8px;
+  box-shadow: 0 0 10px #00ff44;
+  cursor: pointer;
+  transition: transform 0.2s ease-in-out;
+}
+
+.submit:hover {
+  transform: scale(1.05);
+  box-shadow: 0 0 15px #00ff44;
+}
+
+@media (max-width: 600px) {
+  .app {
+    padding: 1rem;
+  }
+
+  .terminal {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .prompt {
+    margin-bottom: 0.5rem;
+  }
+
+  .emoji {
+    font-size: 1.2rem;
+  }
+
+  h1 {
+    font-size: 2.3rem;
+  }
+
+  button, .submit {
+    font-size: 1rem;
+    padding: 0.6rem 1.2rem;
+  }
+}
