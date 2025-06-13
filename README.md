@@ -18,7 +18,7 @@ A fun, interactive terminal-themed React app where developers anonymously confes
 
 ## 🚀 Live Demo
 
-[🔗 View the App](#) – *(Add your deployed URL here)*
+[🔗 View the App](#) – *([Add your deployed URL here](https://weekendgame.onrender.com/))*
 
 ---
 
